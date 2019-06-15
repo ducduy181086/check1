@@ -9,3 +9,7 @@
 /Check1.Domain/obj
 /Check1.Service/bin
 /Check1.Service/obj
+/Check1.Repository/bin
+/Check1.Repository/obj
+/Check1.Repository.Tests/bin
+/Check1.Repository.Tests/obj

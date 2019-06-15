@@ -1,0 +1,26 @@
+﻿@model Check1.Domain.Order;
+@{
+    ViewData["Title"] = "Buy Page";
+}
+
+<div>
+    <h1 class="display-4">Buy</h1>
+    <form method="post">
+        <div>
+            <span>T-Shirt:&nbsp;</span><input name="TShirtAmount" />
+        </div>
+        <div>
+            <span>Dress Shirt:&nbsp;</span><input name="DressShirtAmount" />
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+
+    @if (Model != null)
+    {
+        <div>
+            <span>Has been ordered! Total price: @Model.TotalPrice$</span>
+        </div>
+    }
+</div>
