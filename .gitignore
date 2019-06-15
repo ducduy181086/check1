@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+.vs
+/Check1/bin
+/Check1/obj
+/Check1.Domain/bin
+/Check1.Domain/obj
+/Check1.Service/bin
+/Check1.Service/obj
